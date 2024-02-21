@@ -1,6 +1,7 @@
 .carousel.slider {
     background: #000;
     color: #fff;
+    position: relative;
 }
 
 .carousel .carousel-slides-container {
@@ -174,3 +175,60 @@
       --slide-content-width: auto;
     }
   }
+
+
+.carousel .carousel-slide .carousel-slide-content {
+    width: calc(85% - 1rem);
+    margin: 0;
+    height: 100%;
+    padding-left: 15%;
+    background: linear-gradient(88.06deg, #000000 1.29%, rgba(0, 0, 0, 0.51) 41.4%, rgba(0, 0, 0, 0) 74.68%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+p {
+    margin: 0;
+}
+h3 {
+    font-size: var(--heading-font-size-l);
+    font-size: 44px;
+    line-height: 48px;
+    margin: 0;
+    max-width: 450px;
+}
+h3 + p {
+    margin: 15px 0;
+    max-width: 360px;
+    font-size: 18px;
+    color: #A7A7A7;
+    line-height: 24px;
+}
+a.button:any-link, button {
+    background: linear-gradient(131.33deg, rgba(255, 255, 255, 0.26) -34.97%, rgba(255, 255, 255, 0) 114.31%), linear-gradient(112.38deg, rgba(255, 255, 255, 0.5) -120.84%, rgba(255, 255, 255, 0.1) 79.67%);
+    border-radius: 0;
+    border: none;
+    font-size: 14px;
+    padding: 11px 40px;
+}
+
+.carousel nav {
+  position: absolute;
+  bottom: 70px;
+  z-index: 9;
+  left: 15%;
+}
+.carousel .carousel-slide-indicator button {
+  border-radius: 0;
+  width: 30px;
+  height: 3px;
+  background: #616161;
+}
+.carousel .carousel-slide-indicator button:disabled, .carousel .carousel-slide-indicator button:hover, .carousel .carousel-slide-indicator button:focus-visible {
+  background-color: #fff;
+  width: 40px;
+} 
+
+.carousel .carousel-navigation-buttons {
+  display: none;
+}
