@@ -1,0 +1,39 @@
+.lifestyle-grid {
+    background: #000;
+    color: #fff;
+    padding: 60px;  
+}
+.lifestyle-grid .inner-grid {
+    display: flex;
+    gap: 10px;
+}
+.lifestyle-grid .inner-grid > div{
+    width: 33.333%;
+}
+.lifestyle-grid .inner-grid > div p{
+    font-size: 14px;
+    line-height: 20px;
+}
+.lifestyle-grid .inner-grid > div h4 {
+    margin: 0 0 18px;
+    font-size: 24px;
+    line-height: 30px;
+}
+.lifestyle-grid .inner-grid > div.first-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.lifestyle-grid .inner-grid > div picture{
+    height: 100%;
+    display: block;
+}
+.lifestyle-grid .inner-grid > div picture img{
+    height: 100%;
+    width: 100%;
+}
+.lifestyle-grid .inner-grid > div button{
+    width: 100%;
+    background: transparent;
+    border: 1px solid #666;
+}
