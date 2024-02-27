@@ -1,0 +1,67 @@
+.shop-section {
+    background: #181818;
+    color: #fff;
+    padding: 60px;
+}
+.shop-section h4 {
+    text-align: center;
+    margin: 0;
+    font-size: 36px;
+    line-height: 40px;
+    padding-bottom: 30px;
+}
+.shop-grid {
+    display: flex;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+}
+.shop-grid > div {
+    border: 1px solid #373737;
+}
+.card-content-wrap {
+    background: linear-gradient(217.08deg, #191818 9.99%, rgba(25, 24, 24, 0) 72.64%);
+    margin-top: -40px;
+    z-index: 9;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+.card-head {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+    position: relative;
+    width: calc(100% - 110px);
+    margin: auto;
+    margin-bottom: 15px;
+}
+.card-head:before,
+.card-head:after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background: #DAAA00;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.card-head:after {
+    left: auto;
+    right: -20px;
+}
+.card-text {
+    font-size: 14px;
+    line-height: 18px;
+    color: #A7A7A7;
+}
+.button-container.card-cta a {
+    border: 1px solid #999;
+    background: transparent;
+    padding: 8px 10px;
+    width: 80%;
+    font-size: 12px;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
